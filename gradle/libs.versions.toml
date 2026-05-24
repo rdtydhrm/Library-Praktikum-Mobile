@@ -11,6 +11,8 @@ composeBom = "2024.09.00"
 navigationCompose = "2.9.7"
 roomRuntime = "2.8.4"
 ksp = "2.3.4"
+retrofit = "3.0.0"
+converterGson = "3.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -31,6 +33,8 @@ androidx-navigation-compose = { group = "androidx.navigation", name = "navigatio
 androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref ="roomRuntime" }
 androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref ="roomRuntime" }
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref ="roomRuntime" }
+com-squareup-retrofit2-retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+retrofit2-converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
